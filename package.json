@@ -1,6 +1,6 @@
 {
   "name": "documento-validacao-br",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pacote de validação de CPFs de forma rápida e simples",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcosguilhermef/documento-validacao-br"
+  },
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.4"
   }
