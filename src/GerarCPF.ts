@@ -54,14 +54,7 @@ export class GerarCPF implements ToolInterface<string>{
         }
     
         let regex: any = mask.match(new RegExp('x', 'g'))
-
-        if(regex != null){
-            if( regex.length < 11) {
-                throw new Error('The CPF mask should contain 11 placeholders');
-            }
-    
-        }
-    
+        
         const placeholderRegex = new RegExp('x');
         for (let i = 0; i < 11; i++) {
             mask = mask.replace(placeholderRegex, cpf[i]);
