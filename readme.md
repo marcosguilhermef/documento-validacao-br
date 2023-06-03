@@ -17,12 +17,16 @@ const value = (new GerarCPF()).execute()
 
 
 # Como usar o validador de CPF?
-~~~
-import { ValidarCPF } from "documento-validacao-br";
+GerarCPF
 
-const value = (new ValidarCPF(params.cpf)).execute();
-~~~
+# Gerar CPF com mascara
 
+~~~
+import { GerarCPF } from "documento-validacao-br";
+
+const mask = 'xxx.xxx.xxx-xx'
+const value = (new GerarCPF(mask)).execute()
+~~~
 
 
 Todas as ferramentas deste pacote são usados no site https://toolsfordevs.com.br Acesse para dar uma conferida e um crédito ao projeto.
