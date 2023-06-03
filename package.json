@@ -1,0 +1,18 @@
+{
+  "name": "documento-validacao-br",
+  "version": "1.0.0",
+  "description": "Pacote de validação de CPFs de forma rápida e simples",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
