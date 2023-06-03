@@ -1,3 +1,5 @@
+import { ToolInterface } from "./ToolInterface";
+
 export class ValidarCNPJ implements ToolInterface<boolean>{
     parameter?: string;
     

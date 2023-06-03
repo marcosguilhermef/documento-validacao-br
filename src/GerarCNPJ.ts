@@ -1,3 +1,5 @@
+import { ToolInterface } from "./ToolInterface";
+
 export class GerarCNPJ implements ToolInterface<string>{
     parameter?: string;
     
