@@ -30,3 +30,11 @@ const value = (new GerarCPF(mask)).execute()
 
 
 Todas as ferramentas deste pacote são usados no site https://toolsfordevs.com.br Acesse para dar uma conferida e um crédito ao projeto.
+
+# Usando require
+
+~~~
+const { GerarCPF } = require("documento-validacao-br")
+
+var cpf = new GerarCPF().execute()
+~~~
