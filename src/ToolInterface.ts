@@ -1,4 +1,4 @@
-export interface ToolInterface<T extends string | boolean>{
-    parameter?: string;
+export interface ToolInterface<T extends string | boolean, B>{
+    parameter?: string | B;
     execute() : T;
 }

@@ -1,5 +1,5 @@
 import { ToolInterface } from "./ToolInterface";
-export class GerarCPF implements ToolInterface<string>{
+export class GerarCPF implements ToolInterface<string, null>{
     parameter?: string;
     
     constructor(regex : string = ''){

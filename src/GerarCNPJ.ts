@@ -1,6 +1,6 @@
 import { ToolInterface } from "./ToolInterface";
 
-export class GerarCNPJ implements ToolInterface<string>{
+export class GerarCNPJ implements ToolInterface<string,null>{
     parameter?: string;
     
     constructor(regex : string = ''){
