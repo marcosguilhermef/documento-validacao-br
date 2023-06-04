@@ -55,4 +55,4 @@ console.log(validate)
 
 
 
-Todas as ferramentas deste pacote são usados no site <a href="https://toolsfordevs.com.br">https://toolsfordevs.com.br</a> Acesse para dar uma conferida e um crédito ao projeto.
+Todas as ferramentas deste pacote são usados no [toolsfordevs.com.br](https://toolsfordevs.com.br). Acesse para dar uma conferida e um crédito ao projeto.
