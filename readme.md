@@ -1,7 +1,6 @@
 # documento validacao br
-
-![](https://img.shields.io/cocoapods/l/documento-validacao-br)
-![](https://img.shields.io/appveyor/build/marcosguilhermef/documento-validacao-br)
+![](https://img.shields.io/npm/dt/documento-validacao-br)
+![](https://img.shields.io/github/license/marcosguilhermef/documento-validacao-br)
 
 # Instalação
 
