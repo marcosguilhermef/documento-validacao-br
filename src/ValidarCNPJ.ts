@@ -17,8 +17,6 @@ export class ValidarCNPJ implements ToolInterface<boolean, string>{
 
     private validate(value: string) {
 
-        console.log({"teste":value.length})
-
         if(value.length != 14){
             return false
         }

@@ -46,12 +46,34 @@ var cpf = new GerarCPF().execute()
 # Validar CNPJ
 
 ~~~
-import { ValidarCNPJ } from "./";
+import { ValidarCNPJ } from "documento-validacao-br";
 
 let cnpj = new ValidarCNPJ('000000000000000').execute()
 
 console.log(validate)
 ~~~
+
+
+# Gerar CNPJ
+
+~~~
+import { GerarCNPJ } from "documento-validacao-br";
+
+let cnpj = new GerarCNPJ().execute()
+
+console.log(validate)
+~~~
+
+# Gerar CNPJ com mascara
+
+~~~
+import { GerarCNPJ } from "documento-validacao-br";
+
+let cnpj = new GerarCNPJ('xx.xxx.xxx/xxxx-xx').execute()
+
+console.log(validate)
+~~~
+
 
 
 
