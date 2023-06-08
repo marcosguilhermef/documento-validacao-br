@@ -19,7 +19,7 @@ const value = (new GerarCPF()).execute()
 ~~~
 import { ValidarCPF } from "documento-validacao-br";
 
-const value = (new ValidarCPF()).execute()
+const value = (new ValidarCPF('000.000.000-00')).execute()
 ~~~
 
 
