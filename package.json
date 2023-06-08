@@ -1,12 +1,13 @@
 {
   "name": "documento-validacao-br",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Pacote de validação de CPFs de forma rápida e simples",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
   ],
+  "keywords": ["gerador de cpf", "gerador de cnpj", "validador de cpf","validador de cnpj","validar cpf", "validar cnpj"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -78,3 +78,6 @@ console.log(validate)
 
 
 Todas as ferramentas deste pacote são usados no [toolsfordevs.com.br](https://toolsfordevs.com.br). Acesse para dar uma conferida e um crédito ao projeto.
+
+
+Por favor, ajude um pobre programador a continuar esse projeto. Minha chave pix: https://toolsfordevs.com.br/_next/image?url=%2Fpix.jpeg&w=256&q=75 Qualquer valor já sou grato. 
